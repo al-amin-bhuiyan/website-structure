@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Design</title>
+    <style>
+        table{
+            border-collapse: collapse;
+
+        }
+        td{
+            padding: 10px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <Caption>Student GPA:</Caption>
+        <thead>
+            <tr>
+                <td>No</td>
+                <td>Name</td>
+                <td>Subjects</td>
+                <td>Grade</td>
+
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="5">1</td>
+                <td rowspan="5">SHIVA</td>
+                <td rowspan="2">Math</td>
+                <td>A</td>
+                
+            </tr>
+            <tr>
+                <td>B</td>
+
+            </tr>
+            <tr>
+                <td rowspan="3">Science</td>
+           <td>A</td>
+            </tr>
+            <tr>
+               
+                <td>B</td>
+                <!-- <td>C</td> -->
+                
+            </tr>
+            <tr>
+                <td>C</td>
+
+            </tr>
+
+
+            <tr>
+                <td rowspan="5">2</td>
+                <td rowspan="5">Mike</td>
+                <td rowspan="2">Math</td>
+                <td>C</td>
+                
+            </tr>
+            <tr>
+                <td>D</td>
+
+            </tr>
+            <tr>
+                <td rowspan="3">Science</td>
+           <td>F</td>
+            </tr>
+            <tr>
+               
+                <td>A</td>
+                <!-- <td>C</td> -->
+                
+            </tr>
+            <tr>
+                <td>C</td>
+                
+            </tr>
+
+
+        </tbody>
+        <tfoot></tfoot>
+
+    </table>
+    
+</body>
+</html>
