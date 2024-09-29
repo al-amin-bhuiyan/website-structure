@@ -1,0 +1,21 @@
+nav > ul > li  {
+
+
+    display: inline;
+    border: 2px solid;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-right: 20px;
+    text-align: center;
+
+}
+nav li >a{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+main > article > figcaption{
+    text-align: center;
+}
